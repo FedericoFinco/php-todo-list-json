@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #222;
+    color: white;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box{
+    width: 25%;
+    border: 1px solid crimson;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+}
+
+.full{
+    width: 100%;
+    text-align: center;
+}
